@@ -1,0 +1,867 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Skandha Avenue</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Iconic Bootstrap 4.5.0 Admin Template">
+    <meta name="author" content="WrapTheme, design by: ThemeMakker.com">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- VENDOR CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  
+
+    <link rel="stylesheet" href="../assets/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/vendor/font-awesome/css/font-awesome.min.css">
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="../assets/css/main.css">
+
+</head>
+
+<style>
+    .card-columns .card {
+        display: inline-block;
+        width: 105%;
+        pointer-events: none;
+
+    }
+
+    .card-img {
+        width: 30px !important;
+        height: 30px !important;
+        text-align: center !important;
+        padding: 2px !important;
+        background-color: rgb(214, 236, 195);
+        border: 2px solid rgb(18, 17, 17);
+        font-size: 9px;
+        /* font-family: 'Arial Narrow Bold', sans-serif; */
+        font-weight: bold;
+        color: black;
+
+    }
+
+    .range {
+        width: 30px !important;
+        height: 30px !important;
+        text-align: center !important;
+        padding: 2px !important;
+        background-color: rgb(255, 180, 180);
+        border: 2px solid rgb(18, 17, 17);
+        font-size: 9px;
+        font-weight: 600%;
+    }
+
+    .TextColors {
+        color: red;
+    }
+</style>
+
+
+
+<body data-theme="light" class="font-nunito">
+    <div id="wrapper" class="theme-cyan">
+
+        <!-- Page Loader -->
+        <div class="page-loader-wrapper">
+            <div class="loader">
+                <div class="m-t-30"><img src="../assets/images/logo-icon.svg" width="48" height="48" alt="Iconic"></div>
+                <p>Please wait...</p>
+            </div>
+        </div>
+
+        <!-- Top navbar div start -->
+        <nav class="navbar navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-brand">
+                    <button type="button" class="btn-toggle-offcanvas"><i class="fa fa-bars"></i></button>
+                    <button type="button" class="btn-toggle-fullwidth"><i class="fa fa-bars"></i></button>
+                    <a href="../index.html">Skandha Avenue</a>
+                </div>
+
+                <div class="navbar-right">
+                    
+
+                    <div id="navbar-menu">
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown">
+                                <a href="javascript:void(0);" class="dropdown-toggle icon-menu" data-toggle="dropdown">
+                                    <i class="fa fa-bell"></i>
+                                    <span class="notification-dot"></span>
+                                </a>
+                                <ul class="dropdown-menu notifications">
+                                    <li class="header"><strong>You have 4 new Notifications</strong></li>
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <div class="media">
+                                                <div class="media-left">
+                                                    <i class="icon-info text-warning"></i>
+                                                </div>
+                                                <div class="media-body">
+                                                    <p class="text">Campaign <strong>Holiday Sale</strong> is nearly
+                                                        reach budget limit.</p>
+                                                    <span class="timestamp">10:00 AM Today</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <div class="media">
+                                                <div class="media-left">
+                                                    <i class="icon-like text-success"></i>
+                                                </div>
+                                                <div class="media-body">
+                                                    <p class="text">Your New Campaign <strong>Holiday Sale</strong> is
+                                                        approved.</p>
+                                                    <span class="timestamp">11:30 AM Today</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <div class="media">
+                                                <div class="media-left">
+                                                    <i class="icon-pie-chart text-info"></i>
+                                                </div>
+                                                <div class="media-body">
+                                                    <p class="text">Website visits from Twitter is 27% higher than last
+                                                        week.</p>
+                                                    <span class="timestamp">04:00 PM Today</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <div class="media">
+                                                <div class="media-left">
+                                                    <i class="icon-info text-danger"></i>
+                                                </div>
+                                                <div class="media-body">
+                                                    <p class="text">Error on website analytics configurations</p>
+                                                    <span class="timestamp">Yesterday</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="footer"><a href="javascript:void(0);" class="more">See all
+                                            notifications</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="../page-login.html" class="icon-menu"><i class="fa fa-power-off"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- main left menu -->
+        <div id="left-sidebar" class="sidebar">
+            <button type="button" class="btn-toggle-offcanvas"><i class="fa fa-arrow-left"></i></button>
+            <div class="sidebar-scroll">
+                <div class="user-account">
+                    <img src="../assets/images/profile.png" class="rounded-circle user-photo" alt="User Profile Picture">
+                    <div class="dropdown">
+                        <span>Welcome,</span>
+                        <a href="javascript:void(0);" class="dropdown-toggle user-name"
+                            data-toggle="dropdown"><strong>Jaya Surya</strong></a>
+                        <ul class="dropdown-menu dropdown-menu-right account">
+                            <li><a href="doctor-profile.html"><i class="icon-user"></i>My Profile</a></li>
+                            <li><a href="app-inbox.html"><i class="icon-envelope-open"></i>Messages</a></li>
+                            <li><a href="javascript:void(0);"><i class="icon-settings"></i>Settings</a></li>
+                            <li class="divider"></li>
+                            <li><a href="page-login.html"><i class="icon-power"></i>Logout</a></li>
+                        </ul>
+                    </div>
+                    <hr>
+                  
+                </div>
+              
+                <!-- Tab panes -->
+                <div class="tab-content padding-0">
+                    <div class="tab-pane active" id="menu">
+                        <nav id="left-sidebar-nav" class="sidebar-nav">
+                            <ul id="main-menu" class="metismenu li_animation_delay">
+                          
+                                <li>
+                                  <a href="../index.html" class=""><i class="fa fa-dashboard"></i></i><span>Dashboard</span></a>
+                                  </li>
+                                <li>
+                                  <a href="../overview/Layout.html" class=""><i class="fa fa-eye"></i></i><span>Overview</span></a>
+                                  </li>
+                                  <li>
+                                      <a href="#Leads" class="has-arrow"><i class="fa fa-user-circle-o"></i></i><span>Leads</span></a>
+                                      <ul>
+                                          <li><a href="../leads/newlead.html">New Lead</a></li>
+                                          <li><a href="../leads/managelead.html">Manage Lead</a></li>
+                                          <li><a href="../leads/leadsource.html">Lead Sources</a></li>                                    
+                                          <li><a href="../leads/leadstatus.html">Lead Status</a></li>
+                                   
+                                         
+                                          
+                                      </ul>
+                                  </li>
+                                  <li>
+                                      <a href="#Property" class="has-arrow"><i class="fa fa-building-o"></i><span>Property</span></a>
+                                      <ul>
+                                          <li><a href="../property/newproperty.html">New Property</a></li>
+                                          <li><a href="../property/properties.html">Properties</a></li>     
+                                      </ul>
+                                  </li>
+                                  <li>
+                                      <a href="#Customers" class="has-arrow"><i class="fa fa-group"></i><span>Customers</span></a>
+                                      <ul>
+                                          <li><a href="../customers/newcustomer.html">New Customer</a></li>
+                                          <li><a href="../customers/customers.html">Customers</a></li>     
+                                       
+                                      </ul>
+                                  </li>
+                                  <li>
+                                      <a href="#employees" class="has-arrow"><i class="fa fa-user"></i><span>Employees</span></a>
+                                      <ul>
+                                          <li><a href="../employees/employee.html">Add Employee</a></li>
+                                          
+                                      </ul>
+                                  </li>
+                                
+                              </ul>
+                        </nav>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+
+      
+
+        <!-- mani page content body part -->
+        <div id="main-content">
+            <div class="container-fluid">
+                <div class="block-header">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <h2>Overview</h2>
+                            <ul class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.html"><i class="fa fa-eye"></i></a>
+                                </li>
+                                <li class="breadcrumb-item">overview</li>
+                               
+                            </ul>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="d-flex flex-row-reverse">
+                               
+                                <div class="p-2 d-flex">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row clearfix">
+                    <div class="col-lg-12">
+                        <div class="card">
+                            <div class="body">
+                                <div class="row justify-content-between">
+                                    <div class="col-4">
+                                    </div>
+                                    <div class="col-2">
+                                        <ul class="nav">
+                                            <li class="pl-3" style="color: red;"><i
+                                                    class="fa fa-circle text-danger"></i> Sold</a></li>
+                                            <li class="pl-3" style="color: green;"><i
+                                                    class="fa fa-circle text-success"></i> Available</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="card-columns"> -->
+                                <!-- <div class="card"> -->
+                                    
+                                    <div class="card card-img">A1 1200</div>
+                                    <div class="card card-img">A2 1200</div>
+                                    <div class="card card-img">A3 1200</div>
+                                    <div class="card card-img range">A4 1200</div>
+                                    <div class="card card-img range">A5 1200</div>
+                                    <div class="card card-img range">A6 1200</div>
+                                    <div class="card card-img range">A7 1200</div>
+                                    <div class="card card-img range">A8 1200</div>
+                                    <div class="card card-img range">A9 1200</div>
+                                    <div class="card card-img range">A10 1200</div>
+                                    <div class="card card-img range">A11 1200</div>
+                                    <div class="card card-img range">A12 1200</div>
+                                    <div class="card card-img range">A13 1200</div>
+                                    <div class="card card-img">A14 1200</div>
+                                    <div class="card card-img">A15 1200</div>
+                                    <div class="card card-img">A16 1200</div>
+                                    <div class="card card-img">A17 1200</div>
+                                    <div class="card card-img">A18 1200</div>
+                                    <div class="card card-img">A19 1200</div>
+                                    <div class="card card-img">A20 1200</div>
+                                    <div class="card card-img">A21 1200</div>
+                                    <div class="card card-img">A22 1200</div>
+                                    <div class="card card-img">A23 1200</div>
+                                    <div class="card card-img">A24 1200</div>
+                                    <div class="card card-img range">A25 1200</div>
+                                    <div class="card card-img range">A26 1200</div>
+                                    <div class="card card-img range">A27 1200</div>
+                                    <div class="card card-img range">A28 1200</div>
+                                    <div class="card card-img range">A29 1200</div>
+                                    <div class="card card-img range">A30 1200</div>
+                                    <div class="card card-img range">A31 1200</div>
+                                    <div class="card card-img range">A32 1200</div>
+                                    <div class="card card-img range">A33 1200</div>
+                                    <div class="card card-img range">A33 1200</div>
+                                    <div class="card card-img range">A34 1200</div>
+                                    <div class="card card-img">A35 1200</div>
+                                    <div class="card card-img">A36 1200</div>
+                                    <div class="card card-img">A36 1200</div>
+                                    <div class="card card-img">A37 1200</div>
+                                    <div class="card card-img">A38 1200</div>
+                                    <div class="card card-img">A39 1200</div>
+                                    <div class="card card-img">A40 1200</div>
+                                    <div class="card card-img">A41 1200</div>
+                                    <div class="card card-img">A42 1200</div>
+                                    <div class="card card-img">A43 1200</div>
+                                    <div class="card card-img">A44 1200</div>
+                                    <div class="card card-img">A45 1200</div>
+                                    <div class="card card-img">A46 1200</div>
+                                    <div class="card card-img">A47 1200</div>
+                                    <div class="card card-img">A48 1200</div>
+                                    <div class="card card-img">A49 1200</div>
+                                    <div class="card card-img">A50 1200</div>
+                                    <div class="card card-img">A51 1200</div>
+                                    <div class="card card-img">A52 1200</div>
+                                    <div class="card card-img">A53 1200</div>
+                                    <div class="card card-img">A54 1200</div>
+                                    <div class="card card-img">A55 1200</div>
+                                    <div class="card card-img">A56 1200</div>
+                                    <div class="card card-img">A57 1200</div>
+                                    <div class="card card-img">A58 1200</div>
+                                    <div class="card card-img">A59 1200</div>
+                                    <div class="card card-img">A60 1200</div>
+                                    <div class="card card-img">A61 1200</div>
+                                    <div class="card card-img">
+                                        <p>A62 1200</p>
+                                    </div>
+                                    <div class="card card-img">
+                                        <p>A63 1200</p>
+                                    </div>
+                                    <div class="card card-img">
+                                        <p>A64 1200</p>
+                                    </div>
+                             
+                                <!-- <div class="card"> -->
+
+                                    <div class="card card-img">
+                                        <p>A65 1200</p>
+                                    </div>
+                                    <div class="card card-img">
+                                        <p>A66 1200</p>
+                                    </div>
+                                    <div class="card card-img">
+                                        <p>A67 1200</p>
+                                    </div>
+                                    <div class="card card-img Range">
+                                        <p>A68 1200 </p>
+                                    </div>
+                                    <div class="card card-img">
+                                        <p>A69 1200 </p>
+                                    </div>
+                                    <div class="card card-img">
+                                        <p>A70 1200 </p>
+                                    </div>
+                                    <div class="card card-img">
+                                        <p>A71 1200 </p>
+                                    </div>
+                                    <div class="card card-img">
+                                        <p>A72 1200 </p>
+                                    </div>
+                                    <div class="card card-img">
+                                        <p>A73 1200 </p>
+                                    </div>
+                                    <div class="card card-img">
+                                        <p>A74 1200 </p>
+                                    </div>
+                                    <div class="card card-img">
+                                        <p>A75 1200 </p>
+                                    </div>
+                                    <div class="card card-img">
+                                        <p>A76 1200 </p>
+                                    </div>
+                                    <div class="card card-img">
+                                        <p>A77 1200 </p>
+                                    </div>
+                                    <div class="card card-img">
+                                        <p>A78 1200 </p>
+                                    </div>
+                                    <div class="card card-img">
+                                        <p>A79 1200 </p>
+                                    </div>
+                                    <div class="card card-img">
+                                        <p>A80 1200 </p>
+                                    </div>
+                                    <div class="card card-img">
+                                        <p>A81 1200 </p>
+                                    </div>
+                                    <div class="card card-img">
+                                        <p>A82 1200 </p>
+                                    </div>
+                                    <div class="card card-img">
+                                        <p>A87 1200 </p>
+                                    </div>
+                                    <div class="card card-img">
+                                        <p>A88 1200 </p>
+                                    </div>
+                                    <div class="card card-img">
+                                        <p>A89 1200 </p>
+                                    </div>
+                                    <div class="card card-img">
+                                        <p>A90 1200 </p>
+                                    </div>
+                                    <div class="card card-img">
+                                        <p>A91 1200 </p>
+                                    </div>
+                                    <div class="card card-img">
+                                        <p>A92 1200 </p>
+                                    </div>
+                                    <div class="card card-img">A93 1200</div>
+                                    <div class="card card-img">A94 1200</div>
+                                    <div class="card card-img">A95 1200</div>
+                                    <div class="card card-img">A96 1200</div>
+                                    <div class="card card-img">A97 1200</div>
+                                    <div class="card card-img">A98 1200</div>
+                                    <div class="card card-img">A99 1200</div>
+                                    <div class="card card-img">B1 1200</div>
+                                    <div class="card card-img">B2 1200</div>
+                              
+                                <!-- <div class="card"> -->
+
+                                    <div class="card card-img">B3 1200</div>
+                                    <div class="card card-img">B4 1200</div>
+                                    <div class="card card-img">B5 1200</div>
+                                    <div class="card card-img">B6 1200</div>
+                                    <div class="card card-img">B7 1200</div>
+                                    <div class="card card-img">B8 1200</div>
+                                    <div class="card card-img">B9 1200</div>
+                                    <div class="card card-img">B10 1200</div>
+                                    <div class="card card-img">B11 1200</div>
+                                    <div class="card card-img">B12 1200</div>
+                                    <div class="card card-img range">B13 1200</div>
+                                    <div class="card card-img range">B14 1200</div>
+                                    <div class="card card-img range">B15 1200</div>
+                                    <div class="card card-img range">B16 1200</div>
+                                    <div class="card card-img range">B17 1200</div>
+                                    <div class="card card-img range">B18 1200</div>
+                                    <div class="card card-img range">B19 1200</div>
+                                    <div class="card card-img range">B20 1200</div>
+                                    <div class="card card-img range">B21 1200</div>
+                                    <div class="card card-img range">B22 1200</div>
+                                    <div class="card card-img range">B23 1200</div>
+                                    <div class="card card-img range">B24 1200</div>
+                                    <div class="card card-img range">B25 1200</div>
+                                    <div class="card card-img range">B26 1200</div>
+                                    <div class="card card-img range">B27 1200</div>
+                                    <div class="card card-img range">B28 1200</div>
+                                    <div class="card card-img range">B29 1200</div>
+                                    <div class="card card-img range">B30 1200</div>
+                                    <div class="card card-img">B31 1200</div>
+                                    <div class="card card-img range">B32 1200</div>
+                                    <div class="card card-img">B33 1200</div>
+                                    <div class="card card-img range">B34 1200</div>
+                                    <div class="card card-img">B35 1200</div>
+                                    <div class="card card-img range">B35 1200</div>
+                                    <div class="card card-img">B36 1200</div>
+                                    <div class="card card-img range">B37 1200</div>
+                                    <div class="card card-img range">B38 1200</div>
+                                    <div class="card card-img">B39 1200</div>
+                                    <div class="card card-img">B40 1200</div>
+                                    <div class="card card-img">B41 1200</div>
+                                    <div class="card card-img">B42 1200</div>
+                                    <div class="card card-img">B43 1200</div>
+                                    <div class="card card-img">B44 1200</div>
+                                    <div class="card card-img">B45 1200</div>
+                                    <div class="card card-img">B46 1200</div>
+                                    <div class="card card-img">B47 1200</div>
+                                    <div class="card card-img">B48 1200</div>
+                                    <div class="card card-img">B49 1200</div>
+                                    <div class="card card-img">B50 1200</div>
+                                    <div class="card card-img">B51 1200</div>
+                                    <div class="card card-img">B52 1200</div>
+                                    <div class="card card-img">B53 1200</div>
+                                    <div class="card card-img">B54 1200</div>
+                                    <div class="card card-img">B55 1200</div>
+                                    <div class="card card-img">B56 1200</div>
+
+                               
+                                <!-- <div class="card"> -->
+                                    <div class="card card-img">B57 1200</div>
+                                    <div class="card card-img">B58 1200</div>
+                                    <div class="card card-img">B59 1200</div>
+                                    <div class="card card-img">B60 1200</div>
+                                    <div class="card card-img">B61 1200</div>
+                                    <div class="card card-img">B62 1200</div>
+                                    <div class="card card-img">B63 1200</div>
+                                    <div class="card card-img">B64 1200</div>
+                                    <div class="card card-img">B65 1200</div>
+                                    <div class="card card-img">B66 1200</div>
+                                    <div class="card card-img">B67 1200</div>
+                                    <div class="card card-img">B68 1200</div>
+                                    <div class="card card-img">B69 1200</div>
+                                    <div class="card card-img">B70 1200</div>
+                                    <div class="card card-img">B71 1200</div>
+                                    <div class="card card-img">B72 1200</div>
+                                    <div class="card card-img">B73 1200</div>
+                                    <div class="card card-img">B74 1200</div>
+                                    <div class="card card-img">B75 1200</div>
+                                    <div class="card card-img">B76 1200</div>
+                                    <div class="card card-img">B77 1200</div>
+                                    <div class="card card-img">B78 1200</div>
+                                
+                                <!-- <div class="card"> -->
+
+                                    <div class="card card-img">B79 1200</div>
+                                    <div class="card card-img">B80 1200</div>
+                                    <div class="card card-img">B81 1200</div>
+                                    <div class="card card-img">B82 1200</div>
+                                    <div class="card card-img">B83 1200</div>
+                                    <div class="card card-img">B84 1200</div>
+                                    <div class="card card-img">B85 1200</div>
+                                    <div class="card card-img">B86 1200</div>
+                                    <div class="card card-img">B87 1200</div>
+                                    <div class="card card-img">B88 1200</div>
+                                    <div class="card card-img">B89 1200</div>
+                                    <div class="card card-img">B90 1200</div>
+                                    <div class="card card-img">B91 1200</div>
+                                    <div class="card card-img">B92 1200</div>
+                                    <div class="card card-img">B93 1200</div>
+                                    <div class="card card-img">B94 1200</div>
+                                    <div class="card card-img">B95 1200</div>
+                                    <div class="card card-img">B96 1200</div>
+                                    <div class="card card-img">B97 1200</div>
+                                    <div class="card card-img">B98 1200</div>
+                                    <div class="card card-img">B99 1200</div>
+                                    <div class="card card-img">B00 1200</div>
+
+
+                         
+                                <!-- <div class="card"> -->
+                                    <div class="card card-img range">C1 1200</div>
+                                    <div class="card card-img">C7 1200</div>
+                                    <div class="card card-img">C8 1200</div>
+                                    <div class="card card-img">C9 1200</div>
+                                    <div class="card card-img">C10 1200</div>
+                                    <div class="card card-img">C11 1200</div>
+                                    <div class="card card-img">C12 1200</div>
+                                    <div class="card card-img">C13 1200</div>
+                                    <div class="card card-img">C14 1200</div>
+                                    <div class="card card-img">C15 1200</div>
+                                    <div class="card card-img">C16 1200</div>
+                                    <div class="card card-img">C17 1200</div>
+                                    <div class="card card-img">C18 1200</div>
+                                    <div class="card card-img">C19 1200</div>
+                                    <div class="card card-img">C20 1200</div>
+                                    <div class="card card-img">C21 1200</div>
+                                    <div class="card card-img">C22 1200</div>
+                                    <div class="card card-img range">C23 1200</div>
+                                    <div class="card card-img range">C24 1200</div>
+                                    <div class="card card-img range">C25 1200</div>
+                                    <div class="card card-img range">C26 1200</div>
+                                    <div class="card card-img range">C27 1200</div>
+                                    <div class="card card-img range">C28 1200</div>
+                                    <div class="card card-img range">C29 1200</div>
+                                    <div class="card card-img range">C30 1200</div>
+                                    <div class="card card-img range">C31 1200</div>
+                                    <div class="card card-img range">C32 1200</div>
+                                    <div class="card card-img range">C33 1200</div>
+                                    <div class="card card-img range">C34 1200</div>
+                                    <div class="card card-img range">C35 1200</div>
+                                    <div class="card card-img range">C36 1200</div>
+                                    <div class="card card-img range">C37 1200</div>
+                                    <div class="card card-img range">C38 1200</div>
+                                    <div class="card card-img range">C39 1200</div>
+                                    <div class="card card-img range">C40 1200</div>
+                                    <div class="card card-img range">C41 1200</div>
+                                    <div class="card card-img range">C42 1200</div>
+                                    <div class="card card-img range">C43 1200</div>
+                                    <div class="card card-img range">C44 1200</div>
+                                    <div class="card card-img range">C45 1200</div>
+                                    <div class="card card-img range">C46 1200</div>
+                                    <div class="card card-img range">C47 1200</div>
+                                    <div class="card card-img range">C48 1200</div>
+                                    <div class="card card-img range">C49 1200</div>
+                                    <div class="card card-img range">C50 1200</div>
+                                    <div class="card card-img range">C51 1200</div>
+                                    <div class="card card-img range">C52 1200</div>
+                                    <div class="card card-img range">C53 1200</div>
+                                    <div class="card card-img range">C54 1200</div>
+                                    <div class="card card-img">C55 1200</div>
+                                    <div class="card card-img">C56 1200</div>
+                                    <div class="card card-img">C57 1200</div>
+                                    <div class="card card-img">C58 1200</div>
+                                    <div class="card card-img">C59 1200</div>
+                                    <div class="card card-img">C60 1200</div>
+                                    <div class="card card-img">C61 1200</div>
+                                    <div class="card card-img">C62 1200</div>
+                                    <div class="card card-img">C63 1200</div>
+                                    <div class="card card-img">C64 1200</div>
+                                    <div class="card card-img">C65 1200</div>
+                                    <div class="card card-img">C66 1200</div>
+                                    <div class="card card-img">C67 1200</div>
+                                    <div class="card card-img">C68 1200</div>
+                                    <div class="card card-img">C69 1200</div>
+                                    <div class="card card-img">C70 1200</div>
+                                    <div class="card card-img">C71 1200</div>
+                                    <div class="card card-img">C72 1200</div>
+                                    <div class="card card-img">C73 1200</div>
+                                    <div class="card card-img">C74 1200</div>
+                                    <div class="card card-img">C75 1200</div>
+                                    <div class="card card-img">C76 1200</div>
+                                    <div class="card card-img">C77 1200</div>
+                                    <div class="card card-img">C78 1200</div>
+                                    <div class="card card-img">C79 1200</div>
+                                    <div class="card card-img">C80 1200</div>
+                                    <div class="card card-img">C81 1200</div>
+                                    <div class="card card-img">C82 1200</div>
+                                    <div class="card card-img">C83 1200</div>
+                                    <div class="card card-img">C84 1200</div>
+                                    <div class="card card-img">C85 1200</div>
+                                    <div class="card card-img">C86 1200</div>
+                                    <div class="card card-img">C87 1200</div>
+                                    <div class="card card-img">C88 1200</div>
+                                    <div class="card card-img">C89 1200</div>
+                                    <div class="card card-img">C90 1200</div>
+                                    <div class="card card-img range">C91 1200</div>
+                                    <div class="card card-img range">C92 1200</div>
+                                    <div class="card card-img range">C93 1200</div>
+                                    <div class="card card-img range">C94 1200</div>
+                                    <div class="card card-img">C95 1200</div>
+                                    <div class="card card-img">C96 1200</div>
+                                    <div class="card card-img">C97 1200</div>
+                                    <div class="card card-img">C98 1200</div>
+                                    <div class="card card-img">C99 1200</div>
+                                    <div class="card card-img">C00 1200</div>
+                                    <div class="card card-img range">D1 1200</div>
+                                    <div class="card card-img range">D2 1200</div>
+                                    <div class="card card-img range">D3 1200</div>
+                                    <div class="card card-img range">D4 1200</div>
+                                    <div class="card card-img">D5 1200</div>
+                                    <div class="card card-img">D6 1200</div>
+                                    <div class="card card-img">D7 1200</div>
+                                    <div class="card card-img">D8 1200</div>
+                                    <div class="card card-img">D9 1200</div>
+                                    <div class="card card-img range">D10 1200</div>
+                                    <div class="card card-img range">D11 1200</div>
+                                    <div class="card card-img range">D12 1200</div>
+                                    <div class="card card-img range">D13 1200</div>
+                                    <div class="card card-img">D14 1200</div>
+                                    <div class="card card-img">D15 1200</div>
+                               
+                                <!-- <div class="card"> -->
+                                    <div class="card card-img">D16 1200</div>
+                                    <div class="card card-img">D17 1200</div>
+                                    <div class="card card-img">D18 1200</div>
+                                    <div class="card card-img range">D19 1200</div>
+                                    <div class="card card-img range">D20 1200</div>
+                                    <div class="card card-img range">D21 1200</div>
+                                    <div class="card card-img range">D22 1200</div>
+                                    <div class="card card-img">D23 1200</div>
+                                    <div class="card card-img">D24 1200</div>
+                                    <div class="card card-img">D25 1200</div>
+                                    <div class="card card-img">D26 1200</div>
+                                    <div class="card card-img">D27 1200</div>
+                                    <div class="card card-img range">D28 1200</div>
+                                    <div class="card card-img range">D29 1200</div>
+                                    <div class="card card-img range">D30 1200</div>
+                                    <div class="card card-img range">D31 1200</div>
+                                    <div class="card card-img">D32 1200</div>
+                                    <div class="card card-img">D33 1200</div>
+                                    <div class="card card-img">D34 1200</div>
+                                    <div class="card card-img">D35 1200</div>
+                                    <div class="card card-img">D36 1200</div>
+                                    <div class="card card-img range">D37 1200</div>
+                                    <div class="card card-img range">D38 1200</div>
+                                    <div class="card card-img range">D39 1200</div>
+                                    <div class="card card-img range">D40 1200</div>
+                                    <div class="card card-img">D41 1200</div>
+                                    <div class="card card-img">D42 1200</div>
+                                    <div class="card card-img">D43 1200</div>
+                                    <div class="card card-img">D44 1200</div>
+                                    <div class="card card-img">D45 1200</div>
+                                    <div class="card card-img range">D46 1200</div>
+                                    <div class="card card-img range">D47 1200</div>
+                                    <div class="card card-img range">D48 1200</div>
+                                    <div class="card card-img range">D49 1200</div>
+                                    <div class="card card-img">D50 1200</div>
+                                    <div class="card card-img">D51 1200</div>
+                                    <div class="card card-img">D52 1200</div>
+                                    <div class="card card-img">D53 1200</div>
+                                    <div class="card card-img">D54 1200</div>
+                                    <div class="card card-img">D55 1200</div>
+                                    <div class="card card-img">D56 1200</div>
+                                    <div class="card card-img">D57 1200</div>
+                                    <div class="card card-img">D58 1200</div>
+                                    <div class="card card-img">D59 1200</div>
+                   
+                                <!-- <div class="card"> -->
+
+                                    <div class="card card-img">D60 1200</div>
+                                    <div class="card card-img">D61 1200</div>
+                                    <div class="card card-img">D62 1200</div>
+                                    <div class="card card-img">D63 1200</div>
+                                    <div class="card card-img">D64 1200</div>
+                                    <div class="card card-img">D65 1200</div>
+                                    <div class="card card-img">D66 1200</div>
+                                    <div class="card card-img">D67 1200</div>
+                                    <div class="card card-img">D68 1200</div>
+                                    <div class="card card-img">D69 1200</div>
+                                    <div class="card card-img">D70 1200</div>
+                                    <div class="card card-img">D71 1200</div>
+                                    <div class="card card-img">D72 1200</div>
+                                    <div class="card card-img">D73 1200</div>
+                                    <div class="card card-img">D74 1200</div>
+                                    <div class="card card-img">D75 1200</div>
+                                    <div class="card card-img">D76 1200</div>
+                                    <div class="card card-img">D77 1200</div>
+                                    <div class="card card-img">D78 1200</div>
+                                    <div class="card card-img range">D79 1200</div>
+                                    <div class="card card-img range">D80 1200</div>
+                                    <div class="card card-img range">D81 1200</div>
+                                    <div class="card card-img range">D82 1200</div>
+                                    <div class="card card-img">D83 1200</div>
+                                    <div class="card card-img">D84 1200</div>
+                                    <div class="card card-img">D85 1200</div>
+                                    <div class="card card-img">D86 1200</div>
+                                    <div class="card card-img">D87 1200</div>
+                                    <div class="card card-img">D88 1200</div>
+                                    <div class="card card-img">D89 1200</div>
+                                    <div class="card card-img">D90 1200</div>
+                                    <div class="card card-img">D91 1200</div>
+                                    <div class="card card-img">D92 1200</div>
+                                    <div class="card card-img">D93 1200</div>
+                                    <div class="card card-img">D94 1200</div>
+                                    <div class="card card-img">D95 1200</div>
+                                    <div class="card card-img">D96 1200</div>
+                                    <div class="card card-img">D97 1200</div>
+                                    <div class="card card-img">D98 1200</div>
+                                    <div class="card card-img">D99 1200</div>
+                                    <div class="card card-img">D00 1200</div>
+                                    <div class="card card-img">E1 1200</div>
+                                    <div class="card card-img">E2 1200</div>
+                                    <div class="card card-img">E3 1200</div>
+
+                           
+                                <!-- <div class="card"> -->
+
+
+                                    <div class="card card-img">E4 1200</div>
+                                    <div class="card card-img range">E5 1200</div>
+                                    <div class="card card-img range">E6 1200</div>
+                                    <div class="card card-img range">E7 1200</div>
+                                    <div class="card card-img range">E8 1200</div>
+                                    <div class="card card-img range">E9 1200</div>
+                                    <div class="card card-img range">E10 1200</div>
+                                    <div class="card card-img range">E11 1200</div>
+                                    <div class="card card-img range">E12 1200</div>
+                                    <div class="card card-img range">E13 1200</div>
+                                    <div class="card card-img range">E14 1200</div>
+                                    <div class="card card-img range">E15 1200</div>
+                                    <div class="card card-img range">E16 1200</div>
+                                    <div class="card card-img range">E17 1200</div>
+                                    <div class="card card-img range">E18 1200</div>
+                                    <div class="card card-img range">E19 1200</div>
+                                    <div class="card card-img range">E20 1200</div>
+                                    <div class="card card-img range">E21 1200</div>
+                                    <div class="card card-img range">E22 1200</div>
+                                    <div class="card card-img range">E23 1200</div>
+                                    <div class="card card-img range">E24 1200</div>
+                                    <div class="card card-img range">E25 1200</div>
+                                    <div class="card card-img range">E26 1200</div>
+                                    <div class="card card-img range">E27 1200</div>
+                                    <div class="card card-img range">E28 1200</div>
+                                    <div class="card card-img range">E29 1200</div>
+                                    <div class="card card-img range">E30 1200</div>
+                                    <div class="card card-img">E31 1200</div>
+                                    <div class="card card-img">E32 1200</div>
+                                    <div class="card card-img">E33 1200</div>
+                                    <div class="card card-img">E34 1200</div>
+                                    <div class="card card-img">E35 1200</div>
+                                    <div class="card card-img">E36 1200</div>
+                                    <div class="card card-img">E37 1200</div>
+                                    <div class="card card-img">E38 1200</div>
+                                    <div class="card card-img">E39 1200</div>
+                                    <div class="card card-img">E40 1200</div>
+                                    <div class="card card-img">E41 1200</div>
+                                    <div class="card card-img">E42 1200</div>
+                                    <div class="card card-img">E43 1200</div>
+                                    <div class="card card-img">E44 1200</div>
+                                    <div class="card card-img">E45 1200</div>
+                                    <div class="card card-img">E46 1200</div>
+                                    <div class="card card-img">E47 1200</div>
+                                    <div class="card card-img">E48 1200</div>
+                                    <div class="card card-img">E49 1200</div>
+                                    <div class="card card-img">E50 1200</div>
+                                    <div class="card card-img">E51 1200</div>
+                                    <div class="card card-img">E52 1200</div>
+                                    <div class="card card-img">E53 1200</div>
+                                    <div class="card card-img">E54 1200</div>
+                                    <div class="card card-img">E55 1200</div>
+                                    <div class="card card-img">E56 1200</div>
+                                    <div class="card card-img">E57 1200</div>
+                                    <div class="card card-img">E58 1200</div>
+                                    <div class="card card-img">E59 1200</div>
+                                    <div class="card card-img">E60 1200</div>
+                                    <div class="card card-img">E61 1200</div>
+                                    <div class="card card-img">E62 1200</div>
+                                    <div class="card card-img">E63 1200</div>
+                                    <div class="card card-img">E64 1200</div>
+                                    <div class="card card-img">E65 1200</div>
+                                    <div class="card card-img">E66 1200</div>
+                                    <div class="card card-img">E67 1200</div>
+                                    <div class="card card-img">E68 1200</div>
+                                    <div class="card card-img">E69 1200</div>
+                                </div>
+
+
+                            </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </div>
+    </div>
+
+    </div>
+
+
+        </div>
+    </div>
+
+    </div>
+
+    <!-- Javascript -->
+    <script src="../assets/bundles/libscripts.bundle.js"></script>
+    <script src="../assets/bundles/vendorscripts.bundle.js"></script>
+
+    <!-- page js file -->
+    <script src="../assets/bundles/mainscripts.bundle.js"></script>
+</body>
+
+</html>
